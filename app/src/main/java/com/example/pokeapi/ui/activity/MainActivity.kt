@@ -1,8 +1,8 @@
-package com.example.pokemonapi.ui.activity
+package com.example.pokeapi.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.pokemonapi.R
+import com.example.pokeapi.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

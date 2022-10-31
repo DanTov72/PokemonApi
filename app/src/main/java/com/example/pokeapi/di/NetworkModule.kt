@@ -1,6 +1,6 @@
-package com.example.pokemonapi.di
+package com.example.pokeapi.di
 
-import com.example.pokemonapi.data.remote.RetrofitClient
+import com.example.pokeapi.data.remote.RetrofitClient
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

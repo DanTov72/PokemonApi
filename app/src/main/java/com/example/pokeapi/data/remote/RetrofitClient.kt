@@ -1,6 +1,6 @@
-package com.example.pokemonapi.data.remote
+package com.example.pokeapi.data.remote
 
-import com.example.pokemonapi.data.remote.apiservices.PokeApi
+import com.example.pokeapi.data.remote.apiservices.PokeApi
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

@@ -1,6 +1,6 @@
 package com.example.pokeapi.data.remote
 
-import com.example.pokeapi.data.remote.apiservices.PokeApi
+import com.example.pokeapi.data.remote.apiservices.PokeApiService
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -23,5 +23,5 @@ class RetrofitClient {
     fun provideLoggingInterceptor() =
         HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
 
-    fun providePokeApi(): PokeApi = retrofit.create(PokeApi::class.java)
+    fun providePokeApi(): PokeApiService = retrofit.create(PokeApiService::class.java)
 }

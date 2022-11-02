@@ -4,7 +4,6 @@ import androidx.lifecycle.liveData
 import com.example.pokeapi.common.Resource
 import okio.IOException
 
-// Я если что отошёл
 abstract class BaseRepository {
 
     fun <T> doRequest(result: suspend () -> T) = liveData {
